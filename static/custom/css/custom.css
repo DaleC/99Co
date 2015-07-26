@@ -1,0 +1,28 @@
+html, body, .container-fluid { 
+	height: 100%; margin: 0; padding: 0; background: black;
+}
+
+.panel {
+	background:#f00;
+}
+
+.row1 { 
+	height:80%; margin: 0; padding: 0;
+}
+
+ .map-panel, #map-canvas{ 
+	height:100%; margin: 0; padding: 0;
+}
+
+.activity-panel{
+	padding: 0.5%; height:100%; margin: 0;
+}
+
+.district-panel{
+	padding: 0.5%; height:100%; margin: 0;
+}
+
+.row2 {
+	height:20%; margin: 0; padding: 0;
+}
+
