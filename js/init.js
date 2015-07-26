@@ -10,20 +10,22 @@ $(function(){
 	$('input:checkbox').change(function() {
 		
 		var disSelected = $("#" + this.id).val();
-		var query = "https://www.99.co/-/get-district-polygons?districts=" + disSelected;
+		console.log(disSelected);
+		// var query = "https://www.99.co/-/get-district-polygons?districts=" + disSelected;
 
-		$.ajax({
-  			url: query,
-  			context: document.body,
-  			xhrFields: {
-    withCredentials: true
-  },
-  			crossDomain : true,
-			})
-		.done(function(data) {
-  				console.log(data);
+		// $.ajax({
+  // 			url: query,
+  // 			dataType:jsonp,
+  // 			context: document.body,
+  // 			xhrFields: {
+  //   withCredentials: true
+  // },
+  // 			crossDomain : true,
+		// 	})
+		// .done(function(data) {
+  // 				console.log(data);
   			
-		});
+		// });
     	//$('#' + this.id).toggle(this.checked);
 	});
 });
