@@ -3,11 +3,11 @@ html, body, .container-fluid {
 }
 
 .panel {
-	background:#f00;
+	background:#000;
 }
 
 .row1 { 
-	height:80%; margin: 0; padding: 0;
+	height:100%; margin: 0; padding: 0;
 }
 
  .map-panel, #map-canvas{ 
@@ -15,14 +15,31 @@ html, body, .container-fluid {
 }
 
 .activity-panel{
-	padding: 0.5%; height:100%; margin: 0;
+	padding: 0; height:100%; margin: 0;
 }
 
 .district-panel{
-	padding: 0.5%; height:100%; margin: 0;
+	padding: 1%; height:100%; margin: 0;
 }
 
-.row2 {
-	height:20%; margin: 0; padding: 0;
+.district-list-panel{
+	height:40%;
+	background-color: white;
+	overflow-y: scroll; 
 }
 
+
+
+.district{
+	padding:0.5%;
+}
+
+.region-buttons{
+	margin-top:3%;
+}
+
+.list-sm{
+	padding-top: 3px;
+	padding-right: 5px;
+	font-size: 12px;
+}

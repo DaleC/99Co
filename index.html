@@ -19,12 +19,73 @@
           <div id="map-canvas"> </div>
         </div>
         <div class="col-md-3 panel district-panel">
-          <input type="text" class="form-control" id="district-text" placeholder="Enter a name"> </input>
+          
+          <!-- Type into -->
+          <div class="input-box">
+            <input type="text" class="form-control" id="district-text" placeholder="Enter a name"> </input>
+          </div>
+
+          <div class="region-buttons">
+            <!-- Button based filter-->
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+              <div class="btn-group btn-group-sm" role="group">
+                <button type="button" class="btn btn-primary">
+                  ALL
+                </button>
+              </div>
+              <div class="btn-group btn-group-sm" role="group">
+                <button type="button" class="btn btn-default">
+                  West
+                </button>
+              </div>
+              <div class="btn-group btn-group-sm" role="group">
+                <button type="button" class="btn btn-default">North
+                </button>
+              </div>
+            </div>
+
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+              <div class="btn-group btn-group-sm" role="group">
+                <button type="button" class="btn btn-default">Center
+                </button>
+              </div>
+            
+            
+              <div class="btn-group btn-group-sm" role="group">
+                <button type="button" class="btn btn-default">South
+                </button>
+              </div>
+              <div class="btn-group btn-group-sm" role="group">
+                <button type="button" class="btn btn-default">East
+                </button>
+              </div>
+             
+            </div>
+          </div>
+
+          <div class="panel district-list-panel">
+            <ul class="list-group">
+              <li class="list-group-item list-sm">
+                <input type="checkbox" aria-label="..." value="05"> 
+                <span> D05 (BuonaVista/West Coast/Clementi) </span>
+              </li>
+              <li class="list-group-item list-sm">
+                <input type="checkbox" aria-label="..." value="06"> 
+                <span> D06 (City Hall/Clarke Quay) </span>
+              </li>
+              <li class="list-group-item list-sm">
+                <input type="checkbox" aria-label="..." value="07"> 
+                <span> D07 (Beach Road/Bugis/Rochor) </span>
+              </li>
+            </ul>
+          </div>
+
+          
+
+          </div>
         </div>
       </div>
-      <div class="row row2">
-        <div class="col-md-12 panel activity-panel"></div>
-      </div>
+      
     </div>
     
 
